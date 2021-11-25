@@ -11,3 +11,11 @@ Giảng viên hướng dẫn: TS. Huỳnh Xuân Phụng
 
 Mã môn học: CLCO332779
 
+Thông tin Project cuối kỳ sử dụng Lightsail.
+- ip tĩnh: 52.6.1.233
+
+- Link truy cập http://52.6.1.233/wp-login.php
+
+- Username: user
+
+- Password: H6JFDizMN97n

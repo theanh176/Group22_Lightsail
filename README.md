@@ -11,16 +11,55 @@ Giảng viên hướng dẫn: TS. Huỳnh Xuân Phụng
 
 Mã môn học: CLCO332779
 
+# Cấu hình WordPress với Amazon Lightsail
+
+- Amazon Web Services là nền tảng dịch vụ điện toán đám mây an toàn, mang đến khả năng tính toán, lưu trữ cơ sở dữ liệu, phân phối nội dung và các chức năng khác nhằm giúp các doanh nghiệp mở rộng và phát triển.
+
+- Vậy Amazon Lightsail là gì? Amazon Lightsail là một dịch vụ đám mây của Amazon, không chỉ là môi trường điện toán (Computing environment), nó còn có thể lưu trữ dữ liệu (Storage - Amazon S3 ), khả năng khôi phục dữ liệu (Snapshots - Amazon RDS). Ngoài ra, nó cung cấp các dịch vụ khác như cân bằng tải (Elastic Load Balancing), tưởng lửa (Firewall), DNS (Route 53) kèm theo một số chức năng có sẵn khác.
+
+- Đầu tiên giới thiệu về cách cài đặt và cấu hình WordPress trên Amazon Lightsail
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/logo.jpg)
+
+# Các bước thực hiện
+
+## 1. Cài đặt WordPress với Lightsail
+
+- Truy cập vào tab Lightsail chọn Create instance.
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/1Create_instance.PNG)
 
+- Chọn vị trí AWS
+
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/2Singapore.PNG)
+
+- Chọn hệ điều hành và CMS trong bài viết này sẽ sữ dụng.
+
+- Linux/Unix.
+
+- WordPress.
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/3hdh.PNG)
 
+- Chọn gói dịch vụ Amazon Lightsail chọn gói dịch vụ phù hợp với trang web của bạn ở đây thì mình sẽ chọn gói ít tiền nhất 3.5$
+
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/4price_per_month.PNG)
 
+- Cuối cùng thì nhập tên ứng dụng và khởi tạo.
+
+- Với Amazon Lightsail cài đặt rất dễ dàng, chỉ cần vài cú click chuột, thì chúng ta đã có một server hoàn chỉnh.
+
+## 2. Kết nối với máy tính thông qua SSH và lấy mật khẩu WordPress website
+
+### Lấy mật khẩu để đăng nhập vào màn hình quản trị của WordPress
+
+- Trên tab Lightsail click vào icon SSH
+
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/5ssh.PNG)
+
+- Sau đó dùng lệnh
+
+`cat $HOME/bitnami_application_password`
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/6password.PNG)
 
@@ -38,4 +77,3 @@ Mã môn học: CLCO332779
 
 
 
-# Group22_Lightsail1

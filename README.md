@@ -59,19 +59,45 @@ Mã môn học: CLCO332779
 
 - Sau đó dùng lệnh
 
-`cat $HOME/bitnami_application_password`
+`cat $HOME/bitnami_application_password` để lấy mật khẩu mặc định
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/6password.PNG)
 
+## 3. Đăng nhập vào trang quản trị WordPress
+
+- Sau khi đăng nhập chúng ta có thể thay đổi mật khẩu cài đặt plugin và tùy biến giao diện cũng như các chức năng trên website của mình
+
+- truy cập http://PublicIpAddress/wp-login.php
+
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/7ip.PNG)
+
+- Đăng nhập và cấu hình, plugin
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/8wordpress.PNG)
 
+## 4. Tạo địa chỉ IP
+
+- Truy cấp vào ứng dụng bạn vừa tạo và chọn tab Networking, sau đó tạo địa chỉ IP.
+
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/9createIp.PNG)
+
+- Sau khi đặt tên cho StaticIP nhấn Create.
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/91Staticip.PNG)
 
+## 5. Trỏ tên miền cho ứng dụng
+
+- Vẫn ở tab Networking thì ta chọn Create DNS zone.
+
+- Sau đó nhập tên miền và click Create DNS zone.
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/9createIp.PNG)
+
+- Nhập tên miền vào DNS records.
+
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/92domain.PNG)
+
+- Trỏ các Name servers qua bên quản lý domain.
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/93domain_add_recore.PNG)
 

@@ -102,7 +102,7 @@ Mã môn học: CLCO332779
 - Đặt tên cho database và nhấn **Create database** để tạo database.
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/dbname.jpg)
 
-- Sau khi tạo xong, database sẽ bị ẩn đi bởi vì phía server đang tạo database, ta chờ khoảng 15p database sẽ được tạo xong.
+- Sau khi tạo xong, database sẽ bị ẩn đi bởi vì phía server đang tạo database, ta chờ khoảng 15p database sẽ hoàn tất.
 - Chọn vào database để xem thông tin.
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/waitdb.jpg)
 

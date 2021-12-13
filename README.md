@@ -101,5 +101,13 @@ Mã môn học: CLCO332779
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/93domain_add_recore.PNG)
 
+# Kết luận
 
+- Với Amazon Lightsail thì chúng ta có thể cài đặt một website khá chi đơn giản và dễ sử dụng như các bước ở trên (Chỉ cần click và nhập thông tin đơn giản). Tuy nhiên nhược điểm khi dùng Amazon Lightsail thì khá cứng nhắc chúng ta sẽ bị hạn chế đội với một cài đặt nhất định khó có thể tùy biến theo ý muốn. Khó bảo trì nâng cấp.
+
+- Với những ưu nhược điểm ở trên thì Amazon Lightsail khá chi phù hợp với các website đơn giản.
+
+# Tài liệu tham khảo
+
+https://aws.amazon.com
 

@@ -19,3 +19,7 @@ Thông tin Project cuối kỳ sử dụng Lightsail.
 - Username: user
 
 - Password: H6JFDizMN97n
+- 
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/1Create_instance.PNG)
+
+# Group22_Lightsail1

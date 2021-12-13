@@ -33,7 +33,7 @@ Mã môn học: CLCO332779
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/2Singapore.PNG)
 
-- Chọn hệ điều hành và CMS trong bài viết này sẽ sữ dụng.
+- Chọn hệ điều hành sẽ sử dụng.
 
 - Linux/Unix.
 
@@ -67,7 +67,7 @@ Mã môn học: CLCO332779
 
 - Sau khi đăng nhập chúng ta có thể thay đổi mật khẩu cài đặt plugin và tùy biến giao diện cũng như các chức năng trên website của mình
 
-- truy cập http://PublicIpAddress/wp-login.php
+- truy cập http://52.76.18.66/wp-login.php
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/7ip.PNG)
 

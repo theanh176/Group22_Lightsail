@@ -25,7 +25,7 @@ Mã môn học: CLCO332779
 
 ## 1. Cài đặt WordPress với Lightsail
 
-- Truy cập vào tab Lightsail chọn Create instance.
+- Truy cập vào tab Lightsail chọn **Create instance**.
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/1Create_instance.PNG)
 

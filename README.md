@@ -85,6 +85,11 @@ Mã môn học: CLCO332779
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/91Staticip.PNG)
 
+## 5. Kết nối trang wordpress với cơ sở dữ liệu quản lý bằng mysql
+- Đầu tiên, tạo database trên lightsail
+- Chọn tag Databases, chọn **Create database**
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/createdb.jpg)
+
 ## 5. Trỏ tên miền cho ứng dụng
 
 - Vẫn ở tab Networking thì ta chọn Create DNS zone.

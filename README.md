@@ -86,9 +86,53 @@ Mã môn học: CLCO332779
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/91Staticip.PNG)
 
 ## 5. Kết nối trang wordpress với cơ sở dữ liệu quản lý bằng mysql
-- Đầu tiên, tạo database trên lightsail
-- Chọn tag Databases, chọn **Create database**
+- Đầu tiên, tạo database trên lightsail.
+- Chọn tag **Databases**, chọn **Create database**.
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/createdb.jpg)
+
+- Chọn vị trí cho database, ở đây ta chọn Singapore.
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/regiondb.jpg)
+
+- Chọn MySql, chọn version cho MySql.
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/vsmysql.jpg)
+
+- Chọn gói phù hợp với dung lượng dữ liệu cần thiết, ở đây ta chọn gói 15$.
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/pricedb.jpg)
+
+- Đặt tên cho database và nhấn **Create database** để tạo database.
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/dbname.jpg)
+
+- Sau khi tạo xong, database sẽ bị ẩn đi bởi vì phía server đang tạo database, ta chờ khoảng 15p database sẽ được tạo xong.
+- Chọn vào database để xem thông tin.
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/waitdb.jpg)
+
+- Để bất kỳ ai có thông tin của database đều có thể lấy dữ liệu xuống MySql Local, ta chọn tag **Networking** trong database, Bật **Public mode**.
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/publicdb.jpg)
+
+- Sau đó ta mở ssh của trang WordPress, nhập dòng lệnh bên dưới để chuyển cơ sở dữ liệu WordPress sang cơ sở dữ liệu MySql.
+
+`sudo mysqldump -u root --databases bitnami_wordpress --single-transaction --compress --order-by-primary -p$(cat /home/bitnami/bitnami_application_password) | sudo mysql -u dbmasteruser --host ls-be2c25772e3015d19df6c655cd60ca1578467739.cmqnhyzvdn9v.ap-southeast-1.rds.amazonaws.com --password`
+
+- Nhập mật khẩu của Database, mật khẩu sẽ không hiển thị khi nhập.
+
+- Nếu phản hồi xuất hiện như hình bên dưới thì dữ liệu được chuyển thành công.
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/passSuccess.jpg)
+
+- Phòng trường hợp xảy ra sự cố, ta sẽ tạo bản sao lưu của `config.php` bằng lệnh:
+
+`cp stack/wordpress/wp-config.php stack/wordpress/wp-config.php-backup`
+
+- Tiếp đó, ta mở tệp `wp-config.php` bằng :
+
+`nano stack/wordpress/wp-config.php`
+
+- Tìm và chỉnh sửa ba giá trị của `DB_USER`, `DB_PASSWORD` và `DB_HOST` bằng User name, Password, Endpoint:3306 của database.
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/config.jpg)
+
+- Cuối cùng, nhập lệnh `sudo stack/ctlscript.sh restart` để khởi động lại các dịch vụ web trên phiên bản.
 
 ## 5. Trỏ tên miền cho ứng dụng
 

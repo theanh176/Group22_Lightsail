@@ -136,7 +136,11 @@ Mã môn học: CLCO332779
 
 ## 6. Trỏ tên miền cho ứng dụng
 
-- Vẫn ở tab Networking thì ta chọn Create DNS zone.
+- Tạo tên miền ở Freenom
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/92domain1.PNG)
+
+- Quay lại Networking thì ta chọn Create DNS zone.
 
 - Sau đó nhập tên miền và click Create DNS zone.
 
@@ -146,9 +150,13 @@ Mã môn học: CLCO332779
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/92domain.PNG)
 
-- Trỏ các Name servers qua bên quản lý domain.
+- Sao chép các Name servers từ DNS.
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/93domain_add_recore.PNG)
+
+- Lưu vào bên Freenom
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/93domain_add_recore2.PNG)
 
 # Kết luận
 

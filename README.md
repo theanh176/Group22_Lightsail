@@ -134,7 +134,7 @@ Mã môn học: CLCO332779
 
 - Cuối cùng, nhập lệnh `sudo stack/ctlscript.sh restart` để khởi động lại các dịch vụ web trên phiên bản.
 
-## 5. Trỏ tên miền cho ứng dụng
+## 6. Trỏ tên miền cho ứng dụng
 
 - Vẫn ở tab Networking thì ta chọn Create DNS zone.
 

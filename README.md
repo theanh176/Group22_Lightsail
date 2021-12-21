@@ -139,36 +139,45 @@ Mã môn học: CLCO332779
 - Trước tiên, tạo bucket trong storage.
 - Chọn tag **Storage**, chọn **Create bucket**.
 
-
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/infostorage.jpg)
 - Trang create bucket xuất hiện.
 
-
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/createbucket.jpg)
 - Chọn vị trí cho bucket, ở đây ta chọn Virginia.
 
-
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/regionbucket.jpg)
 - Chọn dung lượng lưu trữ cần thiết.
 
-
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/pricebk.jpg)
 - Đặt tên cho bucket và nhấn **Create bucket**.
 
-
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/namebk.jpg)
 - Bucket tạo thành công.
 - Tiếp theo ta thiết lập permission, chọn tag **Permissions**.
 
-
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/infobucket.jpg)
 - Ta thay đổi permission thành **All objects are public and read-only** để chuyển sang chế độ công khai và có thể xem dữ liệu.
 
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/permissionbk.jpg)
+- Liên kết với instance, ở đây chọn instance là wordpress **lightsail-wordpress**, nhấn **attach**.
 
-- Liên kết với instance, ở đây chọn instance là wordpress **lightsail-wordpress**, nhấn **attach**
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/attachinstance.jpg)
 
+- Truy cập vào wordpress admin để cài đặt plugin S3.
+- install **WP Offload Media Lite for Amazon S3, DigitalOcean Spaces, and Google Cloud Storage**.
 
-- Truy cập vào wordpress admin để cài đặt plugin S3
-- install **WP Offload Media Lite for Amazon S3, DigitalOcean Spaces, and Google Cloud Storage**
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/s3install.jpg)
+- Sau đó ta chọn settings để thiết lập cho S3.
 
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/settings3.jpg)
+- Ta chọn Storage Provider là Amazon S3, mục **My server is on Amazon Web Service and I'd like to use IAM Roles**. Nhấn **Next**.
 
-- Sau đó ta chọn settings để thiết lập cho S3
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/rules3.jpg)
+- Thêm bucket ta vừa tạo. Nhấn **Save Bucket Setting**.
 
-
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/savechanges3.jpg)
+- **Save Changes**.
+- Đến đây, ta đã thành công thiết lập storage cho wordpress.
 
 ## 7. Trỏ tên miền cho ứng dụng
 

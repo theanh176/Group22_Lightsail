@@ -90,8 +90,8 @@ Mã môn học: CLCO332779
 - Chọn tag **Databases**, chọn **Create database**.
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/createdb.jpg)
 
-- Chọn vị trí cho database, ở đây ta chọn Singapore.
-![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/regiondb.jpg)
+- Chọn vị trí cho database, ở đây ta chọn Virginia.
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/regiondbus.jpg)
 
 - Chọn MySql, chọn version cho MySql.
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/vsmysql.jpg)
@@ -100,7 +100,7 @@ Mã môn học: CLCO332779
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/pricedb.jpg)
 
 - Đặt tên cho database và nhấn **Create database** để tạo database.
-![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/dbname.jpg)
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/namedb.jpg)
 
 - Sau khi tạo xong, database sẽ bị ẩn đi bởi vì phía server đang tạo database, ta chờ khoảng 15p database sẽ hoàn tất.
 - Chọn vào database để xem thông tin.

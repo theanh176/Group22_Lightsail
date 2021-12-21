@@ -135,7 +135,42 @@ Mã môn học: CLCO332779
 
 - Cuối cùng, nhập lệnh `sudo stack/ctlscript.sh restart` để khởi động lại các dịch vụ web trên phiên bản.
 
-## 6. Trỏ tên miền cho ứng dụng
+## 6. Thiết lập storage cho wordpress
+- Trước tiên, tạo bucket trong storage.
+- Chọn tag **Storage**, chọn **Create bucket**.
+
+
+- Trang create bucket xuất hiện.
+
+
+- Chọn vị trí cho bucket, ở đây ta chọn Virginia.
+
+
+- Chọn dung lượng lưu trữ cần thiết.
+
+
+- Đặt tên cho bucket và nhấn **Create bucket**.
+
+
+- Bucket tạo thành công.
+- Tiếp theo ta thiết lập permission, chọn tag **Permissions**.
+
+
+- Ta thay đổi permission thành **All objects are public and read-only** để chuyển sang chế độ công khai và có thể xem dữ liệu.
+
+
+- Liên kết với instance, ở đây chọn instance là wordpress **lightsail-wordpress**, nhấn **attach**
+
+
+- Truy cập vào wordpress admin để cài đặt plugin S3
+- install **WP Offload Media Lite for Amazon S3, DigitalOcean Spaces, and Google Cloud Storage**
+
+
+- Sau đó ta chọn settings để thiết lập cho S3
+
+
+
+## 7. Trỏ tên miền cho ứng dụng
 
 - Tạo tên miền ở Freenom
 

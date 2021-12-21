@@ -103,9 +103,8 @@ Mã môn học: CLCO332779
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/namedb.jpg)
 
 - Sau khi tạo xong, database sẽ bị ẩn đi bởi vì phía server đang tạo database, ta chờ khoảng 15p database sẽ hoàn tất.
-- Chọn vào database để xem thông tin.
-![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/waitdb.jpg)
 
+- Chọn vào database để xem thông tin.
 - Để bất kỳ ai có thông tin của database đều có thể lấy dữ liệu xuống MySql Local, ta chọn tag **Networking** trong database, Bật **Public mode**.
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/publicdb.jpg)

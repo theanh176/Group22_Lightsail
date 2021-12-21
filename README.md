@@ -240,7 +240,7 @@ Mã môn học: CLCO332779
 
 - Đặt tên cho snapshots nhấn create
 
-![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/9912_snapshots.PNG)
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/9912_name_snap.PNG)
 
 - Tạo một phiên bản mới từ Snapshots
 

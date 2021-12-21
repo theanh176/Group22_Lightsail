@@ -232,6 +232,36 @@ Mã môn học: CLCO332779
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/98_tick.PNG)
 
+## 7. Snapshots
+
+- Vào snapshots chọn create snapshot
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/9911_snapshots.PNG)
+
+- Đặt tên cho snapshots nhấn create
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/9912_snapshots.PNG)
+
+- Tạo một phiên bản mới từ Snapshots
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/992_manual_snapshots.PNG)
+
+- Giao diện tạo một phiên bản mới.
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/993_create_snapshot.PNG)
+
+- Chọn vùng khả dụng cho phiên bản
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/994_select_location.PNG)
+
+- Chọn giá tiền phù hợp
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/995_price_snapshot.PNG)
+
+- Nhấn create để hoàn thành tạo phiên bản mới
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/996_create.PNG)
+
 # II. Mean
 Ngăn xếp dành cho nhà phát triển Mean: Mean Stack là sự kết hợp giữa của MongoDB, ExpressJS, AngularJS, NodeJS và khiến cho việc xây dựng những ứng dụng web trở nên mạnh mẽ và đơn giản hơn bao giờ hết.
 

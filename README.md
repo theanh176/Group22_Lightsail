@@ -175,6 +175,8 @@ Mã môn học: CLCO332779
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/rules3.jpg)
 - Thêm bucket ta vừa tạo. Nhấn **Save Bucket Setting**.
 
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/attachbk.jpg)
+
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/savechanges3.jpg)
 - **Save Changes**.
 - Đến đây, ta đã thành công thiết lập storage cho wordpress.

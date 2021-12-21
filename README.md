@@ -232,7 +232,7 @@ Mã môn học: CLCO332779
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/98_tick.PNG)
 
-## 7. Snapshots
+## 8. Snapshots
 
 - Vào snapshots chọn create snapshot
 

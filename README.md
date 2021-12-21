@@ -117,7 +117,7 @@ Mã môn học: CLCO332779
 
 - Nếu phản hồi xuất hiện như hình bên dưới thì dữ liệu được chuyển thành công.
 
--![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/passSuccess.jpg)
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/successdb.jpg)
 
 - Phòng trường hợp xảy ra sự cố, ta sẽ tạo bản sao lưu của `config.php` bằng lệnh:
 
@@ -127,9 +127,11 @@ Mã môn học: CLCO332779
 
 `nano stack/wordpress/wp-config.php`
 
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/database.jpg)
+
 - Tìm và chỉnh sửa ba giá trị của `DB_USER`, `DB_PASSWORD` và `DB_HOST` bằng User name, Password, Endpoint:3306 của database.
 
--![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/config.jpg)
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/connectsuccess.jpg)
 
 - Cuối cùng, nhập lệnh `sudo stack/ctlscript.sh restart` để khởi động lại các dịch vụ web trên phiên bản.
 

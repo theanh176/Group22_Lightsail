@@ -179,7 +179,7 @@ Mã môn học: CLCO332779
 - **Save Changes**.
 - Đến đây, ta đã thành công thiết lập storage cho wordpress.
 
-## 7. Trỏ tên miền cho ứng dụng
+## 7. Networking
 
 - Tạo tên miền ở Freenom
 
@@ -203,6 +203,34 @@ Mã môn học: CLCO332779
 
 ![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/93domain_add_recore2.PNG)
 
+- Tạo bộ cân bằng tải
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/94_LoadBalancer.PNG)
+
+- Thêm các phiên bản vào bộ cân bằng tải
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/95_Attach_another.PNG)
+
+- Tạo chứng chỉ SSL vào bộ cân bằng tải
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/96_SSL.PNG)
+
+- Tạo DNS records, copy Name và Value từ chứng chỉ của bộ cân bằng tải điền vào trong CNAME records.
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/97_Name_value.PNG)
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/991_add_record.PNG)
+
+- Chọn chứng chỉ SSL và bật Https
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/99_https.PNG)
+
+- Tiếp tục tạo DNS records, điền tên trang web và trỏ tên bộ cân bằng tải qua trong A records.
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/991_add_record.PNG)
+
+- Kích hoạt tính ổn định của trang.
+
+![myimage-alt-tag](https://github.com/theanh176/Group22_Lightsail/blob/main/image/98_tick.PNG)
 
 # II. Mean
 Ngăn xếp dành cho nhà phát triển Mean: Mean Stack là sự kết hợp giữa của MongoDB, ExpressJS, AngularJS, NodeJS và khiến cho việc xây dựng những ứng dụng web trở nên mạnh mẽ và đơn giản hơn bao giờ hết.
